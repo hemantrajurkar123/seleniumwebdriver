@@ -11,11 +11,14 @@ import org.openqa.selenium.chrome.ChromeDriver;
 // Locators:
 
 //id -done
-//className -done
-//TagName -done
+//name - dome
 //link text -done
 //partial link text
-//name - dome
+
+//TagName -done -used to select a group of elements
+//className -done -used to select a group of elements
+
+
 //
 //CSS Selector
 //Xpath

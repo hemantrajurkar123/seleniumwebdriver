@@ -36,6 +36,8 @@ public class CSSSelector {
 
 }
 
+//ul[@class='top-menu notmobile']//a[normalize-space()='Computers']
+
 
 // There are 4 types to use CSS selector
 //1. tag id ---> tag#id
