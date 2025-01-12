@@ -32,7 +32,17 @@ public class XpathDemo {
 		// xpath with 'contains' and 'starts-with'
 //		driver.findElement(By.xpath("//input[contains(@placeholder,'Sea')]")).sendKeys("pen");
 		
-        driver.findElement(By.xpath("//input[starts-with(@placeholder,'Sea')]")).sendKeys("paper");
+//        driver.findElement(By.xpath("//input[starts-with(@placeholder,'Sea')]")).sendKeys("paper");
+		
+		// chained xpath
+		// Here we have to find the xpath of the parent elements of the target, and then traverse down in the chain
+		//div[@id='logo']/a/img
+		
+		//. representation. dot(.) represents text
+		
+//		String text=driver.findElement(By.xpath("//h3[contains(.,'Featured')]")).getText();
+//		System.out.println(text);
+
 	}
 
 }

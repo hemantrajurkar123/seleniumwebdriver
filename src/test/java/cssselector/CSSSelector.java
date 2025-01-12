@@ -26,7 +26,7 @@ public class CSSSelector {
 		//tag name is optional
 //		driver.findElement(By.cssSelector("[name='q']")).sendKeys("tablets"); // as double quotes are not allowed insided another double quotes in java, we have to use escape \ just before the inner quotes
 
-		//4. input class attribute
+		//4. tag class attribute
 //		driver.findElement(By.cssSelector("input.search-box-text[placeholder='Search store']")).sendKeys("mobile");
 		//tag name is optional
 //		driver.findElement(By.cssSelector(".search-box-text[placeholder='Search store']")).sendKeys("mobile");
