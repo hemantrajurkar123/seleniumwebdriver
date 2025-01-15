@@ -41,9 +41,9 @@ public class HandleCheckBoxes {
 		
 		//5. select last 3 checkboxes
 		
-		for(int i=4;i<checkboxes.size();i++) {
-			checkboxes.get(i).click();
-		}
+//		for(int i=4;i<checkboxes.size();i++) {
+//			checkboxes.get(i).click();
+//		}
 		
 		//6. unselect checkboxes if they are selected
 		// This can be done by checkboxes.get(i).click() but it is not the best method. We have to check the condition as well
@@ -65,6 +65,12 @@ public class HandleCheckBoxes {
 //			}
 //		}
 		
+		//Radio buttons
+		
+		WebElement male_radio=driver.findElement(By.xpath("//input[@value='male']"));
+		WebElement female_radio=driver.findElement(By.xpath("//input[@value='female']"));
+		male_radio.click();
+
 		
 		
 		Thread.sleep(10000);
